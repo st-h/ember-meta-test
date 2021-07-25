@@ -47,5 +47,14 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV['ember-meta'] = {
+    description: 'Ramblings about Ember.js, JavaScript, life, liberty, and the pursuit of happiness.',
+    imgSrc: 'http://i.imgur.com/KVqNjgO.png',
+    siteName: 'Ship Shape',
+    title: 'Blog - Ship Shape',
+    twitterUsername: '@shipshapecode',
+    url: 'https://shipshape.io/blog/'
+  };
+
   return ENV;
 };
